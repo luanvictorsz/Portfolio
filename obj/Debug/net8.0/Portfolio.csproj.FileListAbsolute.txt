@@ -32,3 +32,4 @@ C:\Users\MSPROD\source\repos\Portfolio\Portfolio\obj\Debug\net8.0\refint\Portfol
 C:\Users\MSPROD\source\repos\Portfolio\Portfolio\obj\Debug\net8.0\Portfolio.pdb
 C:\Users\MSPROD\source\repos\Portfolio\Portfolio\obj\Debug\net8.0\Portfolio.genruntimeconfig.cache
 C:\Users\MSPROD\source\repos\Portfolio\Portfolio\obj\Debug\net8.0\ref\Portfolio.dll
+C:\Users\MSPROD\source\repos\Portfolio\Portfolio\obj\Debug\net8.0\Portfolio.sourcelink.json
