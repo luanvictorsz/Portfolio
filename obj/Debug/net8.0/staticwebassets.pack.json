@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "C:\\Users\\MSPROD\\source\\repos\\Portfolio\\Portfolio\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Portfolio.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Portfolio.2quiuhkwyf.bundle.scp.css"
+      "PackagePath": "staticwebassets\\Portfolio.hiaydoqhs8.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\MSPROD\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\css\\site.css",
@@ -11,6 +11,10 @@
     {
       "Id": "C:\\Users\\MSPROD\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\MSPROD\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\img\\Floresta.png",
+      "PackagePath": "staticwebassets\\img\\Floresta.png"
     },
     {
       "Id": "C:\\Users\\MSPROD\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\js\\finisher-header.es5.min.js",

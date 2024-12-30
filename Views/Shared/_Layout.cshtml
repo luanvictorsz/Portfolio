@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Portfolio.styles.css" asp-append-version="true" />
 </head>
-<body class="header finisher-header" style="width: 100%; height: 350px;">
+<body class="header finisher-header" style="width: 100%; height: 280px;">
     <header>
-        <nav class="navbar navbar-expand-sm  navbar-toggleable-sm navbar-light mb-3">
-            <div class="container-fluid">
+        <nav class="position-absolute fixed-top navbar navbar-expand-sm  navbar-toggleable-sm navbar-light mb-3" >
+            <div class="container-fluid position-sticky" style="z-index:1">
                 <a class="navbar-brand text-white" asp-area="" asp-controller="Home" asp-action="Index">A3TERNUS.TECH</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -19,15 +19,15 @@
                             <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
                         </svg>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between" style="z-index: -1;">
                     <ul class="navbar-nav flex-grow-1 justify-content-end">
-                        <li class="nav-item">
+                        <li class="nav-item" style="backdrop-filter: blur(5px);">
                             <a class="nav-link text-light " asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item" style="backdrop-filter: blur(5px);">
                             <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Projetos">Projetos</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item" style="backdrop-filter: blur(5px);">
                             <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Contato">Contato</a>
                         </li>
                     </ul>
@@ -35,13 +35,12 @@
             </div>
         </nav>
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
+    <div class="container" style="margin-top: 60px">
+        <main role="main">
             @RenderBody()
         </main>
     </div>
-
-    <footer class="footer text-muted">
+    <footer class="footer text-muted position-absolute">
         <div class="container text-center">
             &copy; 2024 - A3TERNUS.TECH
         </div>
@@ -52,43 +51,44 @@
     <script src="~/js/site.js" asp-append-version="true"></script>
     <script type="text/javascript">
         new FinisherHeader({
-          "count": 10,
+          "count": 90,
           "size": {
-            "min": 1300,
-            "max": 1500,
+            "min": 1,
+            "max": 20,
             "pulse": 0
           },
           "speed": {
             "x": {
-              "min": 0.1,
-              "max": 0.6
+              "min": 0,
+              "max": 0.4
             },
             "y": {
-              "min": 0.1,
-              "max": 0.6
+              "min": 0,
+              "max": 0.1
             }
           },
           "colors": {
-            "background": "#9138e5",
+            "background": "#2558a2",
             "particles": [
-              "#ff4848",
-              "#000000",
-              "#2235e5",
-              "#000000",
-              "#ff0000"
+              "#ffffff",
+              "#87ddfe",
+              "#acaaff",
+              "#1bffc2",
+              "#f88aff"
             ]
           },
-          "blending": "overlay",
+          "blending": "screen",
           "opacity": {
-            "center": 0.5,
-            "edge": 0.05
+            "center": 0,
+            "edge": 0.4
           },
           "skew": -2,
           "shapes": [
-            "c"
+            "c",
+            "s",
+            "t"
           ]
         });
     </script>
-    @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
