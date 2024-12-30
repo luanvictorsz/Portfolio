@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bSvQAqViX4fNj8iJKtyYSg6jTLJJgpPesEp6fF+CkMU=",
+  "Hash": "MpU6BgGeCKehcgw18QtbDhtaUyUVnsxfm2sTuZDw/ao=",
   "Source": "Portfolio",
   "BasePath": "_content/Portfolio",
   "Mode": "Default",
@@ -99,27 +99,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
-    },
-    {
-      "Identity": "C:\\Users\\MSPROD\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\img\\Floresta.png",
-      "SourceId": "Portfolio",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSPROD\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\",
-      "BasePath": "_content/Portfolio",
-      "RelativePath": "img/Floresta#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "d44lam6zto",
-      "Integrity": "HYpzT7lvZr8g9Rd52QE8Xm5gYipJXezCvJALi0qYdG8=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\Floresta.png"
     },
     {
       "Identity": "C:\\Users\\MSPROD\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\js\\finisher-header.es5.min.js",
@@ -1544,88 +1523,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
-        }
-      ]
-    },
-    {
-      "Route": "img/Floresta.d44lam6zto.png",
-      "AssetFile": "C:\\Users\\MSPROD\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\img\\Floresta.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "55270"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"HYpzT7lvZr8g9Rd52QE8Xm5gYipJXezCvJALi0qYdG8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 30 Dec 2024 17:02:51 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "d44lam6zto"
-        },
-        {
-          "Name": "label",
-          "Value": "img/Floresta.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-HYpzT7lvZr8g9Rd52QE8Xm5gYipJXezCvJALi0qYdG8="
-        }
-      ]
-    },
-    {
-      "Route": "img/Floresta.png",
-      "AssetFile": "C:\\Users\\MSPROD\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\img\\Floresta.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "55270"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"HYpzT7lvZr8g9Rd52QE8Xm5gYipJXezCvJALi0qYdG8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 30 Dec 2024 17:02:51 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-HYpzT7lvZr8g9Rd52QE8Xm5gYipJXezCvJALi0qYdG8="
         }
       ]
     },

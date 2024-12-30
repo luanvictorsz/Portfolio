@@ -13,10 +13,6 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\MSPROD\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\img\\Floresta.png",
-      "PackagePath": "staticwebassets\\img\\Floresta.png"
-    },
-    {
       "Id": "C:\\Users\\MSPROD\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\js\\finisher-header.es5.min.js",
       "PackagePath": "staticwebassets\\js\\finisher-header.es5.min.js"
     },
