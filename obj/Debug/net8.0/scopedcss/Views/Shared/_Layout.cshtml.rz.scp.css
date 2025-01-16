@@ -1,49 +1,90 @@
-/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
-
-a.navbar-brand[b-0aq0x0b44y] {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
+/* Estilos gerais */
+body[b-0aq0x0b44y], html[b-0aq0x0b44y] {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Arial', sans-serif; /* Ou outra fonte de sua preferência */
+    color: #fff;
 }
 
+.container-fluid[b-0aq0x0b44y] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Garantir que ocupe 100% da altura da tela */
+    text-align: center;
+}
+
+.d-flex[b-0aq0x0b44y] {
+    display: flex;
+}
+
+.flex-column[b-0aq0x0b44y] {
+    flex-direction: column;
+}
+
+.text-center[b-0aq0x0b44y] {
+    text-align: center;
+}
+
+.m-1[b-0aq0x0b44y] {
+    margin: 10px;
+}
+
+.text-uppercase[b-0aq0x0b44y] {
+    text-transform: uppercase;
+}
+
+.tracking-in-contract-bck-bottom[b-0aq0x0b44y] {
+    animation: tracking-in-contract-bck-bottom-b-0aq0x0b44y 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+/* Animação do texto */
+@keyframes tracking-in-contract-bck-bottom-b-0aq0x0b44y {
+    0% {
+        letter-spacing: 1em;
+        transform: translateZ(400px) translateY(300px);
+        opacity: 0;
+    }
+    40% {
+        opacity: 0.6;
+    }
+    100% {
+        transform: translateZ(0) translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Estilo para links */
 a[b-0aq0x0b44y] {
-  color: #0077cc;
+    color: #258cfb;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-.btn-primary[b-0aq0x0b44y] {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+/* Estilo para o bloco de texto principal */
+.div-com-distancia[b-0aq0x0b44y] {
+    display: block;
+    margin-top: 5rem;
+    width: 100%;
+    text-align: center;
 }
 
-.nav-pills .nav-link.active[b-0aq0x0b44y], .nav-pills .show > .nav-link[b-0aq0x0b44y] {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+.div-com-distancia h3[b-0aq0x0b44y] {
+    border: 1px solid red;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
-.border-top[b-0aq0x0b44y] {
-  border-top: 1px solid #e5e5e5;
-}
-.border-bottom[b-0aq0x0b44y] {
-  border-bottom: 1px solid #e5e5e5;
-}
+/* Ajustes responsivos para garantir que o conteúdo ocupe toda a tela de forma proporcional */
+@media (max-width: 768px) {
+    .container-fluid[b-0aq0x0b44y] {
+        height: auto; /* Em telas menores, remova a altura de 100vh */
+    }
 
-.box-shadow[b-0aq0x0b44y] {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+    .div-com-distancia h3[b-0aq0x0b44y] {
+        font-size: 14px; /* Ajuste do tamanho da fonte */
+        padding: 15px;
+    }
 }
-
-button.accept-policy[b-0aq0x0b44y] {
-  font-size: 1rem;
-  line-height: inherit;
-}
-
-.footer[b-0aq0x0b44y] {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px;
-}
-
