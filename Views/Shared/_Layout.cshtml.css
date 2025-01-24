@@ -3,88 +3,66 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100%;
-    font-family: 'Arial', sans-serif; /* Ou outra fonte de sua preferência */
+    font-family: 'Arial', sans-serif;
     color: #fff;
-}
-
-.container-fluid {
+    background-color: #121212; /* Fundo escuro para um contraste limpo */
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Garantir que ocupe 100% da altura da tela */
     text-align: center;
 }
 
-.d-flex {
-    display: flex;
+/* Contêiner centralizado */
+.container {
+    padding: 20px;
+    max-width: 600px; /* Limita a largura para melhorar a legibilidade */
+    width: 90%; /* Ajusta automaticamente em telas menores */
 }
 
-.flex-column {
-    flex-direction: column;
+/* Estilo do texto principal */
+h3 {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    border: 1px solid #258cfb; /* Bordas discretas */
+    border-radius: 8px; /* Arredondamento para suavizar */
+    background-color: #1e1e1e; /* Fundo levemente destacado */
 }
 
-.text-center {
-    text-align: center;
-}
-
-.m-1 {
-    margin: 10px;
-}
-
-.text-uppercase {
-    text-transform: uppercase;
-}
-
-.tracking-in-contract-bck-bottom {
-    animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-}
-
-/* Animação do texto */
-@keyframes tracking-in-contract-bck-bottom {
-    0% {
-        letter-spacing: 1em;
-        transform: translateZ(400px) translateY(300px);
-        opacity: 0;
-    }
-    40% {
-        opacity: 0.6;
-    }
-    100% {
-        transform: translateZ(0) translateY(0);
-        opacity: 1;
-    }
-}
-
-/* Estilo para links */
+/* Links com destaque */
 a {
     color: #258cfb;
     text-decoration: none;
     font-weight: bold;
+    transition: color 0.3s;
 }
 
-/* Estilo para o bloco de texto principal */
-.div-com-distancia {
-    display: block;
-    margin-top: 5rem;
-    width: 100%;
-    text-align: center;
-}
-
-.div-com-distancia h3 {
-    border: 1px solid red;
-    padding: 20px;
-    max-width: 900px;
-    margin: 0 auto;
-}
-
-/* Ajustes responsivos para garantir que o conteúdo ocupe toda a tela de forma proporcional */
-@media (max-width: 768px) {
-    .container-fluid {
-        height: auto; /* Em telas menores, remova a altura de 100vh */
+    a:hover {
+        color: #fff; /* Destaque ao passar o mouse */
     }
 
-    .div-com-distancia h3 {
-        font-size: 14px; /* Ajuste do tamanho da fonte */
+/* Animação simplificada */
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+h3 {
+    animation: fade-in 0.8s ease-in-out;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    h3 {
+        font-size: 1.2rem;
         padding: 15px;
     }
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DywBThFmveex5uTphf0c/iEgIAWwIT+chlUurXLtR5o=",
+  "Hash": "+fPaMk5Diu2URGDH/LrUcUTrFnAnv3+VY0ae3drQMBE=",
   "Source": "Portfolio",
   "BasePath": "_content/Portfolio",
   "Mode": "Default",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "hiaydoqhs8",
-      "Integrity": "udb6gwwC42JB7TRrRfgnL+OpjGrkyjb87kE4qhEqe3s=",
+      "Fingerprint": "41il8bzg5j",
+      "Integrity": "iJKlCw3ClmY1y6Gj5IHiZ6ahBGUzhglAiI1dwqmIm70=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\MSPROD\\source\\repos\\Portfolio\\Portfolio\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Portfolio.styles.css"
@@ -52,8 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "hiaydoqhs8",
-      "Integrity": "udb6gwwC42JB7TRrRfgnL+OpjGrkyjb87kE4qhEqe3s=",
+      "Fingerprint": "41il8bzg5j",
+      "Integrity": "iJKlCw3ClmY1y6Gj5IHiZ6ahBGUzhglAiI1dwqmIm70=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\MSPROD\\source\\repos\\Portfolio\\Portfolio\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Portfolio.bundle.scp.css"
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "j6j2g43j6m",
-      "Integrity": "m10ghZfoCmIGKPYV5gfC1GwgqL9D35g0gF5gwIJgM3c=",
+      "Fingerprint": "v8xlvpsfoc",
+      "Integrity": "cWFIgUCYBdXQrE9pY7bsEgVNsmbvCNykRX2e6n6Q7rk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1373,7 +1373,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2210"
+          "Value": "2517"
         },
         {
           "Name": "Content-Type",
@@ -1381,11 +1381,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"m10ghZfoCmIGKPYV5gfC1GwgqL9D35g0gF5gwIJgM3c=\""
+          "Value": "\"cWFIgUCYBdXQrE9pY7bsEgVNsmbvCNykRX2e6n6Q7rk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 10 Jan 2025 16:12:37 GMT"
+          "Value": "Fri, 24 Jan 2025 20:45:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1395,12 +1395,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-m10ghZfoCmIGKPYV5gfC1GwgqL9D35g0gF5gwIJgM3c="
+          "Value": "sha256-cWFIgUCYBdXQrE9pY7bsEgVNsmbvCNykRX2e6n6Q7rk="
         }
       ]
     },
     {
-      "Route": "css/site.j6j2g43j6m.css",
+      "Route": "css/site.v8xlvpsfoc.css",
       "AssetFile": "C:\\Users\\MSPROD\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1410,7 +1410,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2210"
+          "Value": "2517"
         },
         {
           "Name": "Content-Type",
@@ -1418,11 +1418,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"m10ghZfoCmIGKPYV5gfC1GwgqL9D35g0gF5gwIJgM3c=\""
+          "Value": "\"cWFIgUCYBdXQrE9pY7bsEgVNsmbvCNykRX2e6n6Q7rk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 10 Jan 2025 16:12:37 GMT"
+          "Value": "Fri, 24 Jan 2025 20:45:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1432,7 +1432,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "j6j2g43j6m"
+          "Value": "v8xlvpsfoc"
         },
         {
           "Name": "label",
@@ -1440,7 +1440,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-m10ghZfoCmIGKPYV5gfC1GwgqL9D35g0gF5gwIJgM3c="
+          "Value": "sha256-cWFIgUCYBdXQrE9pY7bsEgVNsmbvCNykRX2e6n6Q7rk="
         }
       ]
     },
@@ -6447,6 +6447,96 @@
       ]
     },
     {
+      "Route": "Portfolio.41il8bzg5j.bundle.scp.css",
+      "AssetFile": "C:\\Users\\MSPROD\\source\\repos\\Portfolio\\Portfolio\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Portfolio.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1511"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iJKlCw3ClmY1y6Gj5IHiZ6ahBGUzhglAiI1dwqmIm70=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 20:46:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "41il8bzg5j"
+        },
+        {
+          "Name": "label",
+          "Value": "Portfolio.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iJKlCw3ClmY1y6Gj5IHiZ6ahBGUzhglAiI1dwqmIm70="
+        }
+      ]
+    },
+    {
+      "Route": "Portfolio.41il8bzg5j.styles.css",
+      "AssetFile": "C:\\Users\\MSPROD\\source\\repos\\Portfolio\\Portfolio\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Portfolio.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1511"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iJKlCw3ClmY1y6Gj5IHiZ6ahBGUzhglAiI1dwqmIm70=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 20:46:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "41il8bzg5j"
+        },
+        {
+          "Name": "label",
+          "Value": "Portfolio.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iJKlCw3ClmY1y6Gj5IHiZ6ahBGUzhglAiI1dwqmIm70="
+        }
+      ]
+    },
+    {
       "Route": "Portfolio.bundle.scp.css",
       "AssetFile": "C:\\Users\\MSPROD\\source\\repos\\Portfolio\\Portfolio\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Portfolio.bundle.scp.css",
       "Selectors": [],
@@ -6457,7 +6547,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1129"
+          "Value": "1511"
         },
         {
           "Name": "Content-Type",
@@ -6465,11 +6555,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"udb6gwwC42JB7TRrRfgnL+OpjGrkyjb87kE4qhEqe3s=\""
+          "Value": "\"iJKlCw3ClmY1y6Gj5IHiZ6ahBGUzhglAiI1dwqmIm70=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 30 Dec 2024 16:51:46 GMT"
+          "Value": "Fri, 24 Jan 2025 20:46:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6479,97 +6569,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-udb6gwwC42JB7TRrRfgnL+OpjGrkyjb87kE4qhEqe3s="
-        }
-      ]
-    },
-    {
-      "Route": "Portfolio.hiaydoqhs8.bundle.scp.css",
-      "AssetFile": "C:\\Users\\MSPROD\\source\\repos\\Portfolio\\Portfolio\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Portfolio.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1129"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"udb6gwwC42JB7TRrRfgnL+OpjGrkyjb87kE4qhEqe3s=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 30 Dec 2024 16:51:46 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "hiaydoqhs8"
-        },
-        {
-          "Name": "label",
-          "Value": "Portfolio.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-udb6gwwC42JB7TRrRfgnL+OpjGrkyjb87kE4qhEqe3s="
-        }
-      ]
-    },
-    {
-      "Route": "Portfolio.hiaydoqhs8.styles.css",
-      "AssetFile": "C:\\Users\\MSPROD\\source\\repos\\Portfolio\\Portfolio\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Portfolio.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1129"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"udb6gwwC42JB7TRrRfgnL+OpjGrkyjb87kE4qhEqe3s=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 30 Dec 2024 16:51:46 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "hiaydoqhs8"
-        },
-        {
-          "Name": "label",
-          "Value": "Portfolio.styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-udb6gwwC42JB7TRrRfgnL+OpjGrkyjb87kE4qhEqe3s="
+          "Value": "sha256-iJKlCw3ClmY1y6Gj5IHiZ6ahBGUzhglAiI1dwqmIm70="
         }
       ]
     },
@@ -6584,7 +6584,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1129"
+          "Value": "1511"
         },
         {
           "Name": "Content-Type",
@@ -6592,11 +6592,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"udb6gwwC42JB7TRrRfgnL+OpjGrkyjb87kE4qhEqe3s=\""
+          "Value": "\"iJKlCw3ClmY1y6Gj5IHiZ6ahBGUzhglAiI1dwqmIm70=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 30 Dec 2024 16:51:46 GMT"
+          "Value": "Fri, 24 Jan 2025 20:46:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6606,7 +6606,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-udb6gwwC42JB7TRrRfgnL+OpjGrkyjb87kE4qhEqe3s="
+          "Value": "sha256-iJKlCw3ClmY1y6Gj5IHiZ6ahBGUzhglAiI1dwqmIm70="
         }
       ]
     }
